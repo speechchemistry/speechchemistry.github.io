@@ -218,9 +218,9 @@ figure img {
 }
 
 figcaption {
-  font-size: 0.8em;
+  /*font-size: 0.8em;*/
   font-style: italic;
-  margin: 0 0 .8em;
+  /*margin: 0 0 .8em;*/
 }
 
 table {
@@ -232,16 +232,17 @@ table {
 }
 
 table th {
-  padding: .2em 1em;
-  background-color: #eee;
+  padding: .2em .3em;
+  /*background-color: #eee;*/
   border-top: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
 }
 
 table td {
-  padding: .2em 1em;
-  border-top: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+  padding: .2em .3em;
+  /*border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;*/
   vertical-align: top;
 }
 
