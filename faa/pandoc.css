@@ -15,7 +15,7 @@ html {
 body {
   color: #444;
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-  font-size: 12px;
+  /*font-size: 12px;*/
   line-height: 1.7;
   padding: 1em;
   margin: auto;
@@ -254,7 +254,7 @@ table td {
   text-align: center;
 }
 
-@media only screen and (min-width: 480px) {
+/*@media only screen and (min-width: 480px) {
   body {
     font-size: 14px;
   }
@@ -263,7 +263,8 @@ table td {
   body {
     font-size: 16px;
   }
-}
+}*/
+
 @media print {
   * {
     background: transparent !important;
